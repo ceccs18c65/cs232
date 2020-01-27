@@ -1,0 +1,204 @@
+Script started on Monday 20 January 2020 11:04:41 AM IST
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cat abc[K[K[K[K[K[K[Kcat abc.txt
+cat: abc.txt: No such file or directory
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ ||>abc.tct
+bash: syntax error near unexpected token `||'
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ || > abc,[K.txt
+bash: syntax error near unexpected token `||'
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ ~ \[K/.bash_aliases
+bash: /home/student: Is a directory
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ alias || = 'ls -al'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ unalias ||
+> ![K`[K~/.bash_aliases
+unalias: usage: unalias [-a] name [name ...]
+bash: /home/student/.bash_aliases: No such file or directory
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ ||>abc.txt
+bash: syntax error near unexpected token `||'
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ ll > abc.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cat abc.y[Ktxt
+total 8
+drwxrwxr-x 2 student student 4096 Jan 20 11:12 ./
+drwxrwxr-x 4 student student 4096 Jan 20 10:52 ../
+-rw-rw-r-- 1 student student    0 Jan 20 11:12 abc.txt
+-rw-rw-r-- 1 student student    0 Jan 20 11:04 work.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cat>abc.txt
+^Z
+[1]+  Stopped                 cat > abc.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ sort -n fn[K[Kabc
+sort: cannot read: abc: No such file or directory
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ sort -n fn
+sort: cannot read: fn: No such file or directory
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ sort -n abc.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ computer
+computer: command not found
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ sort -mk7 abc.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ so[K[Kcat abc.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cat>abc.txt
+cp omputer
+monitor
+cpu mouse     
+mo  pri inter
+^Z
+[2]+  Stopped                 cat > abc.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ sort -n abc.txt
+computer
+cpu 
+monitor
+printer
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ sort -nk7 abc.txt
+computer
+cpu 
+monitor
+printer
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ sort -rnk7 abc.txt
+printer
+monitor
+cpu 
+computer
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ sort -t [K'$\t' -k7 abc.txt
+sort: multi-character tab ‘$\\t’
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut -f3 abc [K.txt
+computer
+monitor
+cpu 
+printer
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut -f-3
+cut f1-3
+cut f1-3
+cut f3-
+cut f3-
+^Z
+[3]+  Stopped                 cut -f-3
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut -f3 cut[K[K[Kabc.txt
+computer
+monitor
+cpu 
+printer
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut f [K-f abc.txt[K[K[K[K[K[K[K[K[K[K[K-f abc.txt
+cut: invalid byte, character or field list
+Try 'cut --help' for more information.
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut-f-3
+cut-f-3: command not found
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut-f-3 -f-3
+^Z
+[4]+  Stopped                 cut -f-3
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut-f1[K[K[K f1-3
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut f1-3
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut f1-3[K[K[K[K-b 2
+^Z
+[5]+  Stopped                 cut -b 2
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cut -b 2 abc.txt
+o
+o
+p
+r
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ ll a[K> abc.tct
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ history
+    1  help
+    2  cd Desktop
+    3  mkdir shijin
+    4  cd shiojin
+    5  ls
+    6  cd
+    7  lt
+    8  ll>abc.tct
+    9  ls
+   10  ls -l
+   11  ls -lt
+   12  ls -ltr
+   13  ls ab* -d
+   14  ls shijin* -d
+   15  ls Desktop* -d
+   16  ls Downloads* -d
+   17  alias
+   18  alias ||='ls -al'
+   19  unalias || ~/.bash_aliases
+   20  cat abc.txt
+   21  ||>abc.tct
+   22  || > abc.txt
+   23  ~ /.bash_aliases
+   24  alias
+   25  alias || = 'ls -al'
+   26  unalias || ~/.bash_aliases
+   27  ||>abc.txt
+   28  ll > abc.txt
+   29  cat abc.txt
+   30  cat>abc.txt
+   31  sort -n abc
+   32  sort -n fn
+   33  sort -n abc.txt
+   34  computer
+   35  sort -mk7 abc.txt
+   36  cat abc.txt
+   37  cat>abc.txt
+   38  sort -n abc.txt
+   39  sort -nk7 abc.txt
+   40  sort -rnk7 abc.txt
+   41  sort -t'$\t' -k7 abc.txt
+   42  cut -f3 abc.txt
+   43  cut -f-3
+   44  cut -f3 abc.txt
+   45  cut -f abc.txt
+   46  cut-f-3
+   47  cut -f-3
+   48  cut f1-3
+   49  cut -b 2
+   50  cut -b 2 abc.txt
+   51  ll > abc.tct
+   52  history
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ 
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ 
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ ||>bca.tct
+bash: syntax error near unexpected token `||'
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ ll>bca.tct
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ cat> bca.tc[Kxt
+apple
+orange
+grapes
+banana
+^Z
+[6]+  Stopped                 cat > bca.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ join [K[K[K[K[Kpaste abc.txt bca.txt
+computer	apple
+monitor	orange
+cpu 	grapes
+printer	banana
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ joinab[K[K abc.txt bca.txt
+join: abc.txt:3: is not sorted: cpu 
+join: bca.txt:3: is not sorted: grapes
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ grep -c
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ grep -w
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ grep ca[K[K"switc[K[K[K[K[Kmotherboard" abc.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ grep "hai [K" abc.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ exit
+exit
+There are stopped jobs.
+]0;student@CC2-25: ~/ceccs18c65/cs232/2001student@CC2-25:~/ceccs18c65/cs232/2001$ exit
+exit
+
+Script done on Monday 20 January 2020 11:58:58 AM IST

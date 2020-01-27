@@ -1,0 +1,4 @@
+computer
+monitor
+cpu 
+printer

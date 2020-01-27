@@ -1,0 +1,51 @@
+CEC CS 18 C65
+SHIJIN REJI ABRAHAM
+
+--------------------------------
+AIM:
+
+File creation, sorting and cutting using linux commands
+-------------------------------
+Command/Shell script/Program name
+
+ll abc.tct
+cat >abc.txt
+
+sort -n abc.txt
+cut -b 2 abc.txt
+paste abc.txt cba.txt
+
+
+
+abc.txt(
+computer
+monitor
+cpu      
+printer)
+
+
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
