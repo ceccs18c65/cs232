@@ -1,0 +1,393 @@
+Script started on Monday 03 February 2020 09:14:39 AM IST
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ if [Kconfig -a
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          inet addr:192.168.0.187  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::3ad5:47ff:feb8:d208/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10110 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2880 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4573255 (4.5 MB)  TX bytes:318804 (318.8 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:276 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:276 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:60868 (60.8 KB)  TX bytes:60868 (60.8 KB)
+
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ if config etho 192.169.0.20
+> route
+> route add default gw 192.168.1.1
+> 
+> 
+> ^C
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ routeif config etho 192.169.0.20; route; routee add default gw 192.168.1.1; [A]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ [C[Cconfig -a[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cunalias || exitalias ||='ls -al'[Kls ab* -d[K[K[K[K[K[K[K[K[Kroute add default gw 192.168.1.1
+SIOCADDRT: Operation not permitted
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ route add default gw 192.168.1.1
+SIOCADDRT: Operation not permitted
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ iwconfig
+eth0      no wireless extensions.
+
+lo        no wireless extensions.
+
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ dhclient usb0
+Cannot find device "usb0"
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ping 192.168.0.2[K30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+64 bytes from 192.168.0.30: icmp_seq=1 ttl=64 time=1.22 ms
+64 bytes from 192.168.0.30: icmp_seq=2 ttl=64 time=0.714 ms
+64 bytes from 192.168.0.30: icmp_seq=3 ttl=64 time=0.637 ms
+64 bytes from 192.168.0.30: icmp_seq=4 ttl=64 time=0.611 ms
+64 bytes from 192.168.0.30: icmp_seq=5 ttl=64 time=0.649 ms
+64 bytes from 192.168.0.30: icmp_seq=6 ttl=64 time=0.621 ms
+64 bytes from 192.168.0.30: icmp_seq=7 ttl=64 time=0.633 ms
+
+^Z
+[1]+  Stopped                 ping 192.168.0.30
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ping www.fb.com
+ping: unknown host www.fb.com
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ping www.fb.com[1P.com[1P.comg.como.como.comg.coml.come.com
+ping: unknown host www.google.com
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ifup
+ifup: Use --help for help
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ssh[K[K[Kifupping www.google.com[C[K[K[K[K[K[K[K[K[K[K[K[Kw.fb.com192.168.0.30[4Pdhclient usb0ping 192.168.0.30[K[K1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=9.73 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=5.39 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=2.60 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=2.46 ms
+64 bytes from 192.168.0.1: icmp_seq=5 ttl=64 time=2.52 ms
+64 bytes from 192.168.0.1: icmp_seq=6 ttl=64 time=2.50 ms
+64 bytes from 192.168.0.1: icmp_seq=7 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_seq=8 ttl=64 time=2.79 ms
+64 bytes from 192.168.0.1: icmp_seq=9 ttl=64 time=2.62 ms
+64 bytes from 192.168.0.1: icmp_seq=10 ttl=64 time=2.49 ms
+64 bytes from 192.168.0.1: icmp_seq=11 ttl=64 time=2.52 ms
+64 bytes from 192.168.0.1: icmp_seq=12 ttl=64 time=17.5 ms
+64 bytes from 192.168.0.1: icmp_seq=13 ttl=64 time=2.64 ms
+64 bytes from 192.168.0.1: icmp_seq=14 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=15 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=16 ttl=64 time=2.50 ms
+64 bytes from 192.168.0.1: icmp_seq=17 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=18 ttl=64 time=2.57 ms
+64 bytes from 192.168.0.1: icmp_seq=19 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_seq=20 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=21 ttl=64 time=2.57 ms
+64 bytes from 192.168.0.1: icmp_seq=22 ttl=64 time=2.64 ms
+64 bytes from 192.168.0.1: icmp_seq=23 ttl=64 time=2.68 ms
+64 bytes from 192.168.0.1: icmp_seq=24 ttl=64 time=2.60 ms
+64 bytes from 192.168.0.1: icmp_seq=25 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=26 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=27 ttl=64 time=2.59 ms
+64 bytes from 192.168.0.1: icmp_seq=28 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_seq=29 ttl=64 time=2.60 ms
+64 bytes from 192.168.0.1: icmp_seq=30 ttl=64 time=4.21 ms
+64 bytes from 192.168.0.1: icmp_seq=31 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=32 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=33 ttl=64 time=2.70 ms
+64 bytes from 192.168.0.1: icmp_seq=34 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=35 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=36 ttl=64 time=3.01 ms
+64 bytes from 192.168.0.1: icmp_seq=37 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_seq=38 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=39 ttl=64 time=2.71 ms
+64 bytes from 192.168.0.1: icmp_seq=40 ttl=64 time=14.3 ms
+64 bytes from 192.168.0.1: icmp_seq=41 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=42 ttl=64 time=2.59 ms
+64 bytes from 192.168.0.1: icmp_seq=43 ttl=64 time=2.56 ms
+64 bytes from 192.168.0.1: icmp_seq=44 ttl=64 time=2.52 ms
+64 bytes from 192.168.0.1: icmp_seq=45 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=46 ttl=64 time=2.90 ms
+64 bytes from 192.168.0.1: icmp_seq=47 ttl=64 time=2.75 ms
+^Z
+[2]+  Stopped                 ping 192.168.0.1
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ cat /etc/resolv.conf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.1.1
+search example.org
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ^C
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ^C
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ exit[K[K[K[K^C
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ^C
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ssh 14.139.184.215
+ssh: connect to host 14.139.184.215 port 22: Network is unreachable
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ll t3testfile.txt
+ls: cannot access t3testfile.txt: No such file or directory
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ll>t3testfile.tct[K[K[Ktxt
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ll>t3testfile.txt[1P>t3testfile.txt[1P>t3testfile.txtc>t3testfile.txta>t3testfile.txtt>t3testfile.txt
+^Z
+[3]+  Stopped                 cat > t3testfile.txt
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp 14[K[Kt3testfile.txt 14.139.184.215:
+ssh: connect to host 14.139.184.215 port 22: Network is unreachable
+lost connection
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ssh 14.139.184.216[K5
+ssh: connect to host 14.139.184.215 port 22: Network is unreachable
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ssh 14.139.184.215cp t3testfile.txt 14.139.184.215:
+ssh: connect to host 14.139.184.215 port 22: Network is unreachable
+lost connection
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp t3testfile.txt 14.139.184.215:[K
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp t3testfile.txt 14.139.184.215:/Home/ ceccs18c65/cs232/0302/t3testfile.txt
+ssh: connect to host 14.139.184.215 port 22: Network is unreachable
+lost connection
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp t3testfile.txt 14.139.184.215:/Home/cceccs18c65/cs232/0302/t3testfile.txt[A]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp t3testfile.txt 14.139.184.215:/Home/cceccs18c65/cs232/0302/t3testfile.txt[A]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[16Psh 14.139.184.215cp t3testfile.txt 14.139.184.215:[K:/Home/cceccs18c65/cs232/0302/t3testfile.txt[A]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh ask@14.139.184.215
+ssh: connect to host 14.139.184.215 port 22: Network is unreachable
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ ssh ask@14.139.184.215cp t3testfile.txt 14.139.184.215:/Home/cceccs18c65/cs232/0302/t3testfile.txt[A]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:[16Psh 14.139.184.215cp t3testfile.txt 14.139.184.215:[16Pcat>t3testfile.txt[1Pll>t3testfile.txt t3testfile.txtssh 14.139.184.215[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K////[K[K[K[Kscp t3testfile.txt ask@192.168.0.30:0302 [A
+^C]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp t3testfile.txt ask@192.168.0.30:0302 [A
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ask@192.168.0.30's password: 
+
+[4]+  Stopped                 scp t3testfile.txt ask@192.168.0.30:0302
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp t3testfile.txt ask@192.168.0.30:0302 [A
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ask@192.168.0.30's password: 
+
+[5]+  Stopped                 scp t3testfile.txt ask@192.168.0.30:0302
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp t3testfile.txt ask@192.168.0.30:0302 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Psh ask@14.139.184.215
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp t3testfile.txt 14.139.184.215:/Home/cceccs18c65/cs232/0302/t3testfile.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kask@192.168.0.30:0302 [A
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ask@192.168.0.30's password: 
+Connection closed by 192.168.0.30
+lost connection
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp t3testfile.txt ask@192.168.0.30:0302 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcs18c65[1P[1P cs18c65[C[1P cs18c65[1P cs18c65[1P cs18c65[1P cs18c65[1P cs18c65[1P cs18c65[1P cs18c65[1P cs18c65[1P cs18c65[1P cs18c65[1P cs18c65[1P cs18c65[1Pcs18c65[C[C[C[C[C[C[C[C@192.168.0.30
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp cs18c65@192.168.0.30[C[1P cs18c65@192.168.0.30[1P cs18c65@192.168.0.30s cs18c65@192.168.0.30h cs18c65@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+
+The programs included with elementary OS are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+elementary OS comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+$ 
+$ ^Z^C
+$ 
+$ ^Z
+$ ^C
+$ 
+$ scp t3.txt cs19 8c5 65@192.168.0.30:0302
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+t3.txt: No such file or directory
+$ ^[[A^[[A^[[A            scp t3.txt cs18c65@192.168.0.30:0302
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+t3.txt: No such file or directory
+$ 
+$ ls
+examples.desktop
+$ scp report.txt cs18c65@192.168.0.30:0302
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+report.txt: No such file or directory
+$ ls
+examples.desktop
+$ ls
+examples.desktop
+$ rsync work.txt
+rsync: link_stat "/home/cs18c65/work.txt" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ exit
+Connection to 192.168.0.30 closed.
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ scp report[K[K[K[K[K[Kt3.txt cs18c65@192.168.0.30:0302
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+t3.txt                                        100%    0     0.0KB/s   00:00    
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ rsync t3.txt cs18c65@192.168.0.30:0302
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ rsync -av 0302/t3.txt
+sending incremental file list
+rsync: change_dir "/home/student/ceccs18c65/cs232/0302//0302" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.0]
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ 
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ rsync -av t3.txt
+sending incremental file list
+-rw-rw-r--              0 2020/02/03 09:48:45 t3.txt
+
+sent 63 bytes  received 69 bytes  264.00 bytes/sec
+total size is 0  speedup is 0.00
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ sftp cs18c65@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> lpwd
+Local working directory: /home/student/ceccs18c65/cs232/0302
+sftp> lcd..
+Invalid command.
+sftp> lcd.. ..
+sftp> lpwd
+Local working directory: /home/student/ceccs18c65/cs232
+sftp> lcd 0302
+sftp> lpwd
+Local working directory: /home/student/ceccs18c65/cs232/0302
+sftp> put 5[Kt5.txt
+Uploading t5.txt to /home/cs18c65/t5.txt
+t5.txt                                          0%    0     0.0KB/s   --:-- ETAt5.txt                                        100%   12     0.0KB/s   00:00    
+sftp> get t5.txt
+Fetching /home/cs18c65/t5.txt to t5.txt
+/home/cs18c65/t5.txt                            0%    0     0.0KB/s   --:-- ETA/home/cs18c65/t5.txt                          100%   12     0.0KB/s   00:00    
+sftp> lpe[Kwd
+Local working directory: /home/student/ceccs18c65/cs232/0302
+sftp> rm t5.txt
+Removing /home/cs18c65/t5.txt
+sftp> quit
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ x[Kexit
+exit
+There are stopped jobs.
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ exitsftp cs18c65@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302                examples.desktop    
+sftp> 
+[6]+  Stopped                 sftp cs18c65@192.168.0.30
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ sftp cs18c65@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put report.txt
+Uploading report.txt to /home/cs18c65/report.txt
+report.txt                                      0%    0     0.0KB/s   --:-- ETAreport.txt                                    100% 1915     1.9KB/s   00:00    
+sftp> put worl[Kk.txt
+Uploading work.txt to /home/cs18c65/work.txt
+work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100%   20KB  20.0KB/s   00:00    
+sftp> exit
+]0;student@CC2-25: ~/ceccs18c65/cs232/0302student@CC2-25:~/ceccs18c65/cs232/0302$ sftp cs18c65@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c65@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> rm work.txt
+Removing /home/cs18c65/work.txt
+sftp> rm report.txt
+Removing /home/cs18c65/report.txt
+sftp> mkdir 0302
+Couldn't create directory: Failure
+sftp> ls
+0302                examples.desktop    
+sftp> cd ~~~[7G[Kcd 0302
+Can't change directory: "/home/cs18c65/0302" is not a directory
+sftp> lcd ..
+sftp> lpwd
+Local working directory: /home/student/ceccs18c65/cs232
+sftp> cd 0302
+Can't change directory: "/home/cs18c65/0302" is not a directory
+sftp> lcd 0302
+sftp> put work.txt
+Uploading work.txt to /home/cs18c65/work.txt
+work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100%   20KB  20.0KB/s   00:00    
+sftp> ls
+0302                examples.desktop    work.txt            
+sftp> rm work.txt
+Removing /home/cs18c65/work.txt
+sftp> ls
+0302                examples.desktop    
+sftp> ls ..[K[K[K[Kcd ..
+sftp> ls
+ask       cec       cs17d00   cs17d01   cs17d02   cs17d03   cs17d04   cs17d05   
+cs17d06   cs17d07   cs17d08   cs17d09   cs17d10   cs17d11   cs17d12   cs17d13   
+cs17d14   cs17d15   cs17d16   cs17d17   cs17d18   cs17d19   cs17d20   cs17d21   
+cs17d22   cs17d23   cs17d24   cs17d25   cs17d26   cs17d27   cs17d28   cs17d29   
+cs17d30   cs17d31   cs17d32   cs17d33   cs17d34   cs17d35   cs17d36   cs17d37   
+cs17d38   cs17d39   cs17d40   cs17d41   cs17d42   cs17d43   cs17d44   cs17d45   
+cs17d46   cs17d47   cs17d48   cs17d49   cs17d50   cs17d51   cs17d52   cs17d53   
+cs17d54   cs17d55   cs17d56   cs17d57   cs17d58   cs17d59   cs17d60   cs17d61   
+cs17d62   cs18c00   cs18c01   cs18c02   cs18c03   cs18c04   cs18c05   cs18c06   
+cs18c07   cs18c08   cs18c09   cs18c10   cs18c11   cs18c12   cs18c13   cs18c14   
+cs18c15   cs18c16   cs18c17   cs18c18   cs18c19   cs18c20   cs18c21   cs18c22   
+cs18c23   cs18c24   cs18c25   cs18c26   cs18c27   cs18c28   cs18c29   cs18c30   
+cs18c31   cs18c32   cs18c33   cs18c34   cs18c35   cs18c36   cs18c37   cs18c38   
+cs18c39   cs18c40   cs18c41   cs18c42   cs18c43   cs18c44   cs18c45   cs18c46   
+cs18c47   cs18c48   cs18c49   cs18c50   cs18c51   cs18c52   cs18c53   cs18c54   
+cs18c55   cs18c56   cs18c57   cs18c58   cs18c59   cs18c60   cs18c61   cs18c62   
+cs18c63   cs18c64   cs18c65   ee18e00   ee18e01   ee18e02   ee18e03   ee18e04   
+ee18e05   ee18e06   ee18e07   ee18e08   ee18e09   ee18e10   ee18e11   ee18e12   
+ee18e13   ee18e14   ee18e15   ee18e16   ee18e17   ee18e18   ee18e19   ee18e20   
+ee18e21   ee18e22   ee18e23   ee18e24   ee18e25   ee18e26   ee18e27   ee18e28   
+ee18e29   ee
