@@ -2,6 +2,7 @@ CEC CS 18 C65
 SHIJIN REJI ABRAHAM
 
 --------------------------------
+AIM:
 
 File creation, sorting and cutting using linux commands
 -------------------------------
@@ -27,24 +28,64 @@ printer)
 
 --------------------------------
 Output: or Input & Output (whichever is applicable)
+ls -l
+total 36
+-rw-rw-r-- 1 student student  560 Jan 27 11:41 abc.tct
+-rw-rw-r-- 1 student student   30 Jan 20 11:18 abc.txt
+-rw-rw-r-- 1 student student  448 Jan 20 11:48 bca.tct
+-rw-rw-r-- 1 student student   27 Jan 20 11:49 bca.txt
+-rw-rw-r-- 1 student student  570 Jan 27 11:29 report.txt
+-rw-rw-r-- 1 student student  565 Jan 20 12:00 report.txt~
+-rw-rw-r-- 1 student student    0 Feb  3 09:44 work.txt
+-rw-rw-r-- 1 student student 8822 Jan 20 11:58 work.txt~
 
 
--------------------
-Remarks if any:
+ ls -ltr
+total 36
+-rw-rw-r-- 1 student student   30 Jan 20 11:18 abc.txt
+-rw-rw-r-- 1 student student  448 Jan 20 11:48 bca.tct
+-rw-rw-r-- 1 student student   27 Jan 20 11:49 bca.txt
+-rw-rw-r-- 1 student student 8822 Jan 20 11:58 work.txt~
+-rw-rw-r-- 1 student student  565 Jan 20 12:00 report.txt~
+-rw-rw-r-- 1 student student  570 Jan 27 11:29 report.txt
+-rw-rw-r-- 1 student student  560 Jan 27 11:41 abc.tct
+-rw-rw-r-- 1 student student    0 Feb  3 09:44 work.txt
 
-
-
-
-
--------------------------------------
--------------------------------------
-#2:
-
-#3:
-
-#4:
-
-#5:
-
-
-
+ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+student@CC2-25:~/ceccs18c65/cs232/2001$ alias || ='ls -al'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+student@CC2-25:~/ceccs18c65/cs232/2001$ unalias ll
+student@CC2-25:~/ceccs18c65/cs232/2001$ ||>abc.tct
+bash: syntax error near unexpected token `||'
+student@CC2-25:~/ceccs18c65/cs232/2001$ ll>abc.tct
+ll: command not found
+student@CC2-25:~/ceccs18c65/cs232/2001$ ||>abc.tct
+bash: syntax error near unexpected token `||'
+student@CC2-25:~/ceccs18c65/cs232/2001$ ll>abc.tct
+ll: command not found
+student@CC2-25:~/ceccs18c65/cs232/2001$ ~/.bash_aliases
+bash: /home/student/.bash_aliases: No such file or directory
+student@CC2-25:~/ceccs18c65/cs232/2001$ ll > abc.tct
+ll: command not found
+student@CC2-25:~/ceccs18c65/cs232/2001$ ll>abc.tct
+ll: command not found
+student@CC2-25:~/ceccs18c65/cs232/2001$ cat abc.txt
+computer
+monitor
+cpu 
+printer
