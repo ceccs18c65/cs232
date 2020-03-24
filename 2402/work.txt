@@ -4,7 +4,7 @@ Script started on Monday 24 February 2020 09:26:01 AM IST
 [3d(B[m[22;32H(B[0;7m[ Read 41 lines
 [3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: index.html                                  [3;1H(B[0m[36m<html>
 [4d<head>
-[5d<title>[39m(B[mcs18c62[36m</title>
+[5d<title>[39m(B[mcs18c65[36m</title>
 [6d</head>
 [7d<body>
 [8d<h3 align=[32m"center"[36m>[39m(B[mS4C CS232 Free And Open Source Software Lab[36m</h3>
@@ -24,7 +24,7 @@ Script started on Monday 24 February 2020 09:26:01 AM IST
 [23d[39m(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
 [24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
 [3d[22d[J[24;80H[24;1H[?1049l
-[?1l>]0;student@cc-Sy: ~/ceccs18c62/cs232/2402[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/2402[00m$ sftp 192.168.0.30c 192.168.0.30[1P 192.168.0.30[Cc192.168.0.30s192.168.0.30[C192.168.0.308192.168.0.30c192.168.0.305192.168.0.30[1P192.168.0.306192.168.0.302192.168.0.30@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C
+[?1l>]0;student@cc-Sy: ~/ceccs18c65/cs232/2402[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/2402[00m$ sftp 192.168.0.30c 192.168.0.30[1P 192.168.0.30[Cc192.168.0.30s192.168.0.30[C192.168.0.308192.168.0.30c192.168.0.305192.168.0.30[1P192.168.0.306192.168.0.302192.168.0.30@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -43,14 +43,14 @@ Uploading index.html to /home/cs18c62/index.html
 index.html                                      0%    0     0.0KB/s   --:-- ETA
 index.html                                    100% 1071     1.1KB/s   00:00    
 sftp> rm index.html
-Removing /home/cs18c62/index.html
+Removing /home/cs18c65/index.html
 sftp> exit
 ]0;student@cc-Sy: ~/ceccs18c65/cs232/2402[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/2402[00m$ sftp cs18c62@192.168.0.30[10Pnano index.html
 [?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ]
 [3d(B[m[22;32H(B[0;7m[ Read 41 lines
 [3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: index.html                                  [3;1H(B[0m[36m<html>
 [4d<head>
-[5d<title>[39m(B[mcs18c62[36m</title>
+[5d<title>[39m(B[mcs18c65[36m</title>
 [6d</head>
 [7d<body>
 [8d<h3 align=[32m"center"[36m>[39m(B[mS4C CS232 Free And Open Source Software Lab[36m</h3>
@@ -113,7 +113,7 @@ sftp> exit
 [11d<td>[39m(B[m(t1)[36m</td>
 [12d<td><a href=[32m"/home/student/ceccs18c62/cs232/2001/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[11;14H[39m(B[m[8;6H[5;24H[2;21r[2;1H[10T[1;24r[3;1H[36m<html>
 [4d<head>
-[5d<title>[39m(B[mcs18c62[36m</title>
+[5d<title>[39m(B[mcs18c65[36m</title>
 [6d</head>
 [7d<body>
 [8d<h3 align=[32m"center"[36m>[39m(B[mS4C CS232 Free And Open Source Software Lab[36m</h3>
@@ -123,21 +123,21 @@ sftp> exit
 [12d<th>[39m(B[mNo[36m</th>[39m(B[m[9;52H[12;12H[15;24H[18;6H[21;14H7[3;22r8
 [22d[10S[1;24r[12;1H[36m<td><a href=[32m"/home/student/ceccs18c62/cs232/2001/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>
 [13d<td>[39m(B[m20-01-2020[36m</td>
-[14d<td><a href=[32m""[36m/cs17d/cs18c47/2401/work.txt[32m">work.txt"[39m(B[m>report.txt[36m</a></td>
+[14d<td><a href=[32m""[36m/cs17d/cs18c65/2401/work.txt[32m">work.txt"[39m(B[m>report.txt[36m</a></td>
 [15d<td></td>
 [16d</tr>
 [17d<tr>
 [18d<td>[39m(B[m2[36m</td>
 [19d<td>[39m(B[m(t3),(t4),(t5)[36m</td>
-[20d<td><a href=[32m"/home/student/ceccs18c62/cs232/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>
+[20d<td><a href=[32m"/home/student/ceccs18c65/cs232/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>
 [21d<td>[39m(B[m03-01-2020[36m</td>[14;53H[39m(B[m[17;5H[20;53H[3;22r[22;1H[10S[1;24r[12;1H[36m<td><a href=[32m"/home/student/ceccs18c62/cs232/0302/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[13;1H<td></td>
 [14d</tr>
 [15d<tr>
 [16d<td>[39m(B[m3[36m</td>
 [17d<td>[39m(B[m(t9)[36m</td>
-[18d<td><a href=[32m"/home/student/ceccs18c62/cs232/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>
+[18d<td><a href=[32m"/home/student/ceccs18c65/cs232/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>
 [19d<td>[39m(B[m10-02-2020[36m</td>
-[20d<td><a href=[32m"/home/student/ceccs18c62/cs232/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[21;1H<td></td>[13;10H[39m(B[m[16;11H[13d[10;53H[7;5H[4;53H[2;21r[2;1H[10T[1;24r[3;1H[36m<th>[39m(B[mExperiment Description[36m</th>
+[20d<td><a href=[32m"/home/student/ceccs18c65/cs232/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[21;1H<td></td>[13;10H[39m(B[m[16;11H[13d[10;53H[7;5H[4;53H[2;21r[2;1H[10T[1;24r[3;1H[36m<th>[39m(B[mExperiment Description[36m</th>
 [4d<th>[39m(B[mCode Link[36m</th>
 [5d<th>[39m(B[mDate of Upload[36m</th>
 [6d<th>[39m(B[mDescription/Link[36m</th>
@@ -164,7 +164,7 @@ sftp> exit
 [17d<tr>
 [18d<td>[39m(B[m2[36m</td>
 [19d<td>[39m(B[m(t3),(t4),(t5)[36m</td>
-[20d<td><a href=[32m"/home/student/ceccs18c62/cs232/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>
+[20d<td><a href=[32m"/home/student/ceccs18c65/cs232/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>
 [21d<td>[39m(B[m03-01-2020[36m</td>[14;53H[39m(B[m[13;20H[12;53H[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[32mc/2001/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;16H[39m(B[m[32ms/2001/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;17H[39m(B[m[32m1/2001/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;18H[39m(B[m[32m7/2001/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;19H[39m(B[m[32md/2001/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;20H[39m(B[m[C[C[C[C[C[1P[1P[C[1P[1P[32mc/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;22H[39m(B[m[32ms/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;23H[39m(B[m[32m1/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;24H[39m(B[m[32m8/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;25H[39m(B[m[32mc/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;26H[39m(B[m[32m6/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;27H[39m(B[m[32m2/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;28H[39m(B[m[32m22/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;29H[39m(B[m[32m0/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;30H[39m(B[m[1P[1P[C[C[32m2work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;30H[39m(B[m[32m0work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;31H[39m(B[m[32m00work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;32H[39m(B[m[32m1work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;33H[39m(B[m[32m/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[12;34H[39m(B[m[C[C[C[C[C[C[C[13;20H
 [14d[13;20H[14d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[36m8/2401/work.txt[32m">work.txt"[39m(B[m>report.txt[36m</a></td>[14;29H[39m(B[m[1P[1P[36m6/2401/work.txt[32m">work.txt"[39m(B[m>report.txt[36m</a></td>[14;28H[39m(B[m[36m2/2401/work.txt[32m">work.txt"[39m(B[m>report.txt[36m</a></td>[14;29H[39m(B[m[32m/cs17d/cs18c62/2401/work.txt"[36m>[39m(B[mwork.txt"[1P[14;14H[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwork.[1P[1P[1P[1P[32mr.txt"[36m>[39m(B[mwork.txt">report.txt[36m</a></td>[14;35H[39m(B[m[32me.txt"[36m>[39m(B[mwork.txt">report.txt[36m</a></td>[14;36H[39m(B[m[32mp.txt"[36m>[39m(B[mwork.txt">report.txt[36m</a></td>[14;37H[39m(B[m[32mo.txt"[36m>[39m(B[mwork.txt">report.txt[36m</a></td>[14;38H[39m(B[m[32mr.txt"[36m>[39m(B[mwork.txt">report.txt[36m</a></td>[14;39H[39m(B[m[32mt.txt"[36m>[39m(B[mwork.txt">report.txt[36m</a></td>[14;40H[39m(B[m[C[C[C[C[C[Cwork.txt"[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[15;10H[16;6H[17d[18;11H[19;24H[20;41H[C[C[C[C[C[C[1P[1P[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[32mccs18c62/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[20;16H[39m(B[m[32mscs18c62/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[20;17H[39m(B[m[32m1cs18c62/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[20;18H[39m(B[m[32m7cs18c62/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[20;19H[39m(B[m[32mdcs18c62/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[20;20H[39m(B[m[32m/cs18c62/0302/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[20;21H[39m(B[m[21d7[3;22r8
 [22d[10S[1;24r[12;1H[36m<td><a href=[32m"/home/student/ceccs18c62/cs232/0302/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[13;1H<td></td>
@@ -172,9 +172,9 @@ sftp> exit
 [15d<tr>
 [16d<td>[39m(B[m3[36m</td>
 [17d<td>[39m(B[m(t9)[36m</td>
-[18d<td><a href=[32m"/home/student/ceccs18c62/cs232/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>
+[18d<td><a href=[32m"/home/student/ceccs18c65/cs232/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>
 [19d<td>[39m(B[m10-02-2020[36m</td>
-[20d<td><a href=[32m"/home/student/ceccs18c62/cs232/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[21;1H<td></td>[12;18H[39m(B[m[13;10H[12;18H[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[13;10H[14;6H[15d[16;11H[17;14H[18d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17;14H[A[15;5H[A[C[13;10H
+[20d<td><a href=[32m"/home/student/ceccs18c65/cs232/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[21;1H<td></td>[12;18H[39m(B[m[13;10H[12;18H[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[13;10H[14;6H[15d[16;11H[17;14H[18d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17;14H[A[15;5H[A[C[13;10H
 [14d[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32mccs18c62/0302/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[12;16H[39m(B[m[32mscs18c62/0302/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[12;17H[39m(B[m[32m1cs18c62/0302/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[12;18H[39m(B[m[32m7cs18c62/0302/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[12;19H[39m(B[m[32mdcs18c62/0302/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[12;20H[39m(B[m[32m/cs18c62/0302/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[12;21H[39m(B[m[13;10H[14;6H[15d[16;11H
 [17d[18d[19d[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[32m2/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[18;49H[39m(B[m[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[32mccs18c62/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[18;16H[39m(B[m[32mscs18c62/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[18;17H[39m(B[m[32m1cs18c62/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[18;18H[39m(B[m[32m7cs18c62/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[18;19H[39m(B[m[32mdcs18c62/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[18;20H[39m(B[m[32m/cs18c62/1002/work.txt"[36m>[39m(B[mwork.txt[36m</a></td>[18;21H[39m(B[m[19d
 [20d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[32m2/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[20;38H[39m(B[m[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[32mccs18c62/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[20;16H[39m(B[m[32mscs18c62/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[20;17H[39m(B[m[32m1cs18c62/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[20;18H[39m(B[m[32m7cs18c62/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[20;19H[39m(B[m[32mdcs18c62/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[20;20H[39m(B[m[32m/cs18c62/1002/report.txt"[36m>[39m(B[mreport.txt[36m</a></td>[20;21H[39m(B[m[21;10H7[3;22r8
@@ -186,7 +186,7 @@ sftp> exit
 [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File
 [24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;31H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 41 lines ](B[m[K[9;18H
 [22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l
-[?1l>]0;student@cc-Sy: ~/ceccs18c62/cs232/2402[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/2402[00m$ sftpnano index.htmlsftp cs18c62@192.168.0.30
+[?1l>]0;student@cc-Sy: ~/ceccs18c65/cs232/2402[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/2402[00m$ sftpnano index.htmlsftp cs18c62@192.168.0.30
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -201,8 +201,8 @@ index.html                                      0%    0     0.0KB/s   --:-- ETA
 index.html                                    100%  975     1.0KB/s   00:00    
 sftp> quit
 ^Z
-[1]+  Stopped                 sftp cs18c62@192.168.0.30
-]0;student@cc-Sy: ~/ceccs18c62/cs232/2402[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/2402[00m$ s[Knanoi[K scrp[Kipt.sh
+[1]+  Stopped                 sftp cs18c65@192.168.0.30
+]0;student@cc-Sy: ~/ceccs18c65/cs232/2402[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/2402[00m$ s[Knanoi[K scrp[Kipt.sh
 [?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ]
 [3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: script.sh                                   [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
 [24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line
@@ -224,7 +224,7 @@ gre[K  [K[5;48H             [42m [49m(B[
 [?1l>Use "fg" to return to nano.
 
 [2]+  Stopped                 nano script.sh
-]0;student@cc-Sy: ~/ceccs18c62/cs232/2402[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/2402[00m$ pdftotxt result.[K_chn[K[K[KCHN.pdf>result_chn.txt
+]0;student@cc-Sy: ~/ceccs18c65/cs232/2402[01;32mstudent@cc-Sy[00m:[01;34m~/ceccs18c62/cs232/2402[00m$ pdftotxt result.[K_chn[K[K[KCHN.pdf>result_chn.txt
 No command 'pdftotxt' found, did you mean:
  Command 'pdftotext' from package 'poppler-utils' (main)
 pdftotxt: command not found
@@ -771,39 +771,39 @@ sftp> ls
 examples.desktop    index.html          
 sftp> cd 20[K402
 sftp> put work.txt
-Uploading work.txt to /home/cs18c62/2402/work.txt
+Uploading work.txt to /home/cs18c65/2402/work.txt
 
 work.txt                                        0%    0     0.0KB/s   --:-- ETA
 work.txt                                      100%   72KB  72.0KB/s   00:00    
 sftp> put report.txt
-Uploading report.txt to /home/cs18c62/2402/report.txt
+Uploading report.txt to /home/cs18c65/2402/report.txt
 
 report.txt                                      0%    0     0.0KB/s   --:-- ETA
 report.txt                                    100%  908     0.9KB/s   00:00    
 sftp> mput .
-Uploading ./ to /home/cs18c62/2402/.
+Uploading ./ to /home/cs18c65/2402/.
 ./ is not a regular file
 
 sftp> mput .[K*
-Uploading index.html to /home/cs18c62/2402/index.html
+Uploading index.html to /home/cs18c65/2402/index.html
 
 index.html                                      0%    0     0.0KB/s   --:-- ETA
 index.html                                    100% 1323     1.3KB/s   00:00    
-Uploading report.txt to /home/cs18c62/2402/report.txt
+Uploading report.txt to /home/cs18c65/2402/report.txt
 
 report.txt                                      0%    0     0.0KB/s   --:-- ETA
 report.txt                                    100%  908     0.9KB/s   00:00    
-Uploading s1/ to /home/cs18c62/2402/s1
+Uploading s1/ to /home/cs18c65/2402/s1
 s1/ is not a regular file
 
-Uploading s2/ to /home/cs18c62/2402/s2
+Uploading s2/ to /home/cs18c65/2402/s2
 s2/ is not a regular file
 
-Uploading script.sh to /home/cs18c62/2402/script.sh
+Uploading script.sh to /home/cs18c65/2402/script.sh
 
 script.sh                                       0%    0     0.0KB/s   --:-- ETA
 script.sh                                     100% 1073     1.1KB/s   00:00    
-Uploading work.txt to /home/cs18c62/2402/work.txt
+Uploading work.txt to /home/cs18c65/2402/work.txt
 
 work.txt                                        0%    0     0.0KB/s   --:-- ETA
 work.txt                                      100%   72KB  72.0KB/s   00:00    
@@ -812,6 +812,6 @@ index.html   report.txt   script.sh    work.txt
 sftp> mkdir s1
 sftp> cd s1
 sftp> mput *
-Uploading index.html to /home/cs18c62/2402/s1/index.html
+Uploading index.html to /home/cs18c65/2402/s1/index.html
 
 index.html                                      0%    0     0.0KB/s  
