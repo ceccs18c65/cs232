@@ -492,7 +492,7 @@ Connection to 192.168.0.30 closed.
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
-cs18c47@192.168.0.30's password: 
+cs18c65@192.168.0.30's password: 
 Connected to 192.168.0.30.
 sftp> l[Kls
 0302              2001              2701              examples.desktop  index.html        
@@ -635,22 +635,22 @@ sftp> cd S2
 sftp> m[Klcd ..
 sftp> lcd S3[K2
 sftp> ,[Kmput *
-Uploading cgpa.txt to /home/cs18c47/0302/S2/cgpa.txt
+Uploading cgpa.txt to /home/cs18c65/0302/S2/cgpa.txt
 
 cgpa.txt                                                                                                         0%    0     0.0KB/s   --:-- ETA
 cgpa.txt                                                                                                       100% 2174     2.1KB/s   00:00    
-Uploading result_CHN.pdf to /home/cs18c47/0302/S2/result_CHN.pdf
+Uploading result_CHN.pdf to /home/cs18c65/0302/S2/result_CHN.pdf
 
 result_CHN.pdf                                                                                                   0%    0     0.0KB/s   --:-- ETA
 result_CHN.pdf                                                                                                 100%   26KB  26.4KB/s   00:00    
-Uploading result_CHN.txt to /home/cs18c47/0302/S2/result_CHN.txt
+Uploading result_CHN.txt to /home/cs18c65/0302/S2/result_CHN.txt
 
 result_CHN.txt                                                                                                   0%    0     0.0KB/s   --:-- ETA
 result_CHN.txt                                                                                                 100%   43KB  43.5KB/s   00:00    
-Uploading script.sh to /home/cs18c47/0302/S2/script.sh
+Uploading script.sh to /home/cs18c65/0302/S2/script.sh
 
 script.sh                                                                                                        0%    0     0.0KB/s   --:-- ETA
 script.sh                                                                                                      100% 1550     1.5KB/s   00:00    
-Uploading students.txt to /home/cs18c47/0302/S2/students.txt
+Uploading students.txt to /home/cs18c65/0302/S2/students.txt
 
 students.txt                                                                                       
