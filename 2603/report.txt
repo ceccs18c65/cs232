@@ -1,0 +1,51 @@
+﻿CEC CS 18 C65  26-03-2020
+SHIJIN REJI ABRAHAM
+
+
+--------------------------------
+#1: Perl (t8)(2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+
+	# Hello world program
+	/Perl/hello.pl	
+
+	# Program to add two numbers
+	/Perl/add.pl
+
+	# Program to find the factorial of a number
+	/Perl/factorial.pl
+	
+
+--------------------------------
+Output: 
+
+	
+	# Output of hello.pl
+	Hello world
+
+	# Output of addition.pl
+	Enter two numbers
+	2
+        9
+	
+	Result is 11
+
+	# Output of factorial.pl
+	
+	enter the limit 5
+        factorial is 120
+
+-------------------
+Remarks if any:
+
+
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+
