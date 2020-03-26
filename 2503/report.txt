@@ -1,0 +1,32 @@
+﻿CEC CS 18 C65 25-03-2020
+SHIJIN REJI ABRAHAM
+
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	# Ubuntu installation using USB
+	Ubuntu 18.04 LTS
+	
+
+--------------------------------
+Output: 
+
+	# Photos 1-9 (.jpg) shows various steps of installation	
+
+	# Ubuntu 18.04.4  is installed alongside with windows10
+
+-------------------
+Remarks if any:
+
+
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+
