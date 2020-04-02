@@ -1,0 +1,24 @@
+Script started on 2020-04-02 15:42:30+0530
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ gedit factorial.pl
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ gedit factorial.pl[3Pscript work.txtls[Kcd ceccs18c65/cs232/020
+04[A
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ [C[C[C[C[C[Cs18c65/cs232/0204[K[A
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ exit[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit hello.plperl factorial.pl
+enter the limit 6
+factorial is 720
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ perl factorial.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plh.ple.pll.pll.plo.pl
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ gedit hello.plperl factorial.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plh.ple.pll.pll.plo.pl
+ Hello world 
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ gedit sum,pl[K[K[K.pl
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ gedit sum.plperl hello.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pls.plu.plm.pl
+Enter two numbers 
+4
+3
+Result is 7 
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ 
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ 
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ 
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0204[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0204[00m$ exit
+Script done on 2020-04-02 15:53:24+0530
