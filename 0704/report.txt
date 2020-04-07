@@ -1,0 +1,39 @@
+CEC CS 18 C65   07-04-2020
+SHIJIN REJI ABRAHAM
+
+piblic ip: 104.200.22.130
+           104.200.23.95
+
+
+--------------------------------
+#1: Aim/task
+
+ Menu driven calculator (s6)
+
+---------------------------------
+Command/Shell script/Program name
+
+
+calculator.sh
+
+
+
+--------------------------------
+Output: 
+             
+            A menu driven calculator with following functions
+
+                1.Addition 
+		2.Subtraction 
+		3.Multiplication 
+		4.Division 
+		
+
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
+-------------------------------------

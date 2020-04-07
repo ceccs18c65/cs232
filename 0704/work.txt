@@ -1,0 +1,66 @@
+Script started on 2020-04-07 21:15:08+0530
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ 
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ exitgedit report.txt[1P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ gedit calculator.shexit[Kgedit report.txt[1P./calculator.sh
+bash: ./calculator.sh: Permission denied
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ ./calculator.shgedit calculator.shexit[Kgedit report.txt[1P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kchmod+[K +x calculator.sh [A
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ chmod +x calculator.sh [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P./calculator.sh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Enter the first number: 
+6
+Enter the second number: 
+2
+Enter your choice: 
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+1
+Sum is 8
+Do u want to continue? (press y to continue)
+y
+Enter your choice: 
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+2
+Difference is 4
+Do u want to continue? (press y to continue)
+y
+Enter your choice: 
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+3
+Multiplication is 12
+Do u want to continue? (press y to continue)
+y
+Enter your choice: 
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+4
+Division is 3
+Do u want to continue? (press y to continue)
+n
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ ./calculator.shchmod +x calculator.sh [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P./calculator.sh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgedit calculator.shexit[Kgedit report.txt[1P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.shgedit calculator.sh[4P./calculator.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdig +short myip.opendn s.com@e[Kresolver1.opendns.com
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ dig +short myip.opendnss.com@resolver1.opendns.com
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ dig +short myip.opendnss.com@resolver1.opendns.com[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmyip.opendns.[1Pcom@resolver1.opendns.com[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ [C[C[C[C[C[C[C[C[C[C
+
+Invalid option: +shortmyip.opendns.com@resolver1.opendns.com
+Usage:  dig [@global-server] [domain] [q-type] [q-class] {q-opt}
+            {global-d-opt} host [@local-server] {local-d-opt}
+            [ host [@local-server] {local-d-opt} [...]]
+
+Use "dig -h" (or "dig -h | more") for complete list of options
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ dig +shortmyip.opendns..com@resolver1.opendns.com[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C myip.opendns.com@resolver1.opendns.com[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ [C[C[C[C[C[C[C[C[C[C[C
+
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ exi[K[K[Kex[K[Kgedit report.txt
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0704[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0704[00m$ CCCCCCCC[K[K[K[K[K[K[K[KCC[K[Kexit
+exit
+
+Script done on 2020-04-07 21:49:57+0530
