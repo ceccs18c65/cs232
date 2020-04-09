@@ -1,0 +1,314 @@
+Script started on 2020-04-09 16:38:09+0530
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ gedit config1.sh
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ ./config1.sh
+bash: ./config1.sh: Permission denied
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ chmod +x config1.sh
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ chmod +x config1.sh[7P./config1.sh
+Currently logged in user : shijin
+
+Login Name : shijin
+
+Current Shell : /bin/bash
+
+Home directory : /home/shijin
+
+Operating System type : 
+
+GNU/Linux
+
+Current Path setting : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+Current Working Directory : 
+
+/home/shijin/ceccs18c65/cs232/0904
+
+Number of users currently logged in: 
+ 16:50:36 up 24 min,  1 user,  load average: 0.14, 0.23, 0.34
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+shijin   :0       :0               16:27   ?xdm?  37.54s  0.02s /usr/lib/gdm3/g
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ [K]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ [K]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ 
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ 
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ script [K[K[K[K[K[K[Kgedit config2.sh
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ gedit config2.sh[4P./config1.shgedit config2.sh
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ gedit config2.sh[4P./config1.sh[1P.sh2.sh
+bash: ./config2.sh: Permission denied
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ ./config2.shgedit config2.sh[4P./config1.shchmod +x config1.sh[1P.sh2.sh
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ chmod +x config2.sh[7P./config2.sh
+
+ OS version & release number :
+
+NAME="Ubuntu"
+VERSION="18.04.4 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.4 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+ OS kernel version : 
+
+5.3.0-45-generic
+
+ All available shells :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+ CPU information :
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 78
+model name	: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+stepping	: 3
+microcode	: 0xd6
+cpu MHz		: 1993.019
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 78
+model name	: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+stepping	: 3
+microcode	: 0xd6
+cpu MHz		: 1984.254
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 78
+model name	: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+stepping	: 3
+microcode	: 0xd6
+cpu MHz		: 1852.249
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 78
+model name	: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+stepping	: 3
+microcode	: 0xd6
+cpu MHz		: 1632.513
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+ Memory information :
+
+MemTotal:        3945444 kB
+MemFree:         1067148 kB
+MemAvailable:    2074804 kB
+Buffers:          142728 kB
+Cached:          1261932 kB
+SwapCached:            0 kB
+Active:          1833180 kB
+Inactive:         615564 kB
+Active(anon):    1171596 kB
+Inactive(anon):   124140 kB
+Active(file):     661584 kB
+Inactive(file):   491424 kB
+Unevictable:      125148 kB
+Mlocked:              16 kB
+SwapTotal:      48829436 kB
+SwapFree:       48829436 kB
+Dirty:               172 kB
+Writeback:             0 kB
+AnonPages:       1169384 kB
+Mapped:           471008 kB
+Shmem:            251436 kB
+KReclaimable:     124912 kB
+Slab:             178072 kB
+SReclaimable:     124912 kB
+SUnreclaim:        53160 kB
+KernelStack:       12320 kB
+PageTables:        47868 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    50802156 kB
+Committed_AS:    6215684 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       36756 kB
+VmallocChunk:          0 kB
+Percpu:             1440 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      187704 kB
+DirectMap2M:     3921920 kB
+DirectMap1G:           0 kB
+
+ Hard disk information :
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           386M  2.0M  384M   1% /run
+/dev/sda6        92G   14G   74G  16% /
+tmpfs           1.9G   17M  1.9G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/loop1       15M   15M     0 100% /snap/gnome-characters/399
+/dev/loop3      3.8M  3.8M     0 100% /snap/gnome-system-monitor/135
+/dev/loop2      4.4M  4.4M     0 100% /snap/gnome-calculator/704
+/dev/loop0      161M  161M     0 100% /snap/gnome-3-28-1804/116
+/dev/loop4       49M   49M     0 100% /snap/gtk-common-themes/1474
+/dev/loop5       55M   55M     0 100% /snap/core18/1705
+/dev/loop6      3.8M  3.8M     0 100% /snap/gnome-system-monitor/127
+/dev/loop9       15M   15M     0 100% /snap/gnome-characters/495
+/dev/loop7      1.0M  1.0M     0 100% /snap/gnome-logs/93
+/dev/loop8       45M   45M     0 100% /snap/gtk-common-themes/1440
+/dev/loop10      55M   55M     0 100% /snap/core18/1668
+/dev/loop11     1.0M  1.0M     0 100% /snap/gnome-logs/81
+/dev/loop13     4.3M  4.3M     0 100% /snap/gnome-calculator/544
+/dev/loop12      92M   92M     0 100% /snap/core/8689
+/dev/loop14      94M   94M     0 100% /snap/core/8935
+/dev/sda2        96M   30M   67M  31% /boot/efi
+tmpfs           386M   16K  386M   1% /run/user/121
+tmpfs           386M   36K  386M   1% /run/user/1000
+
+ File system(Mounted) :
+
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+udev on /dev type devtmpfs (rw,nosuid,relatime,size=1948380k,nr_inodes=487095,mode=755)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=394548k,mode=755)
+/dev/sda6 on / type ext4 (rw,relatime,errors=remount-ro)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)
+cgroup on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+efivarfs on /sys/firmware/efi/efivars type efivarfs (rw,nosuid,nodev,noexec,relatime)
+cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup on /sys/fs/cgroup/rdma type cgroup (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=24,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=15716)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+mqueue on /dev/mqueue type mqueue (rw,relatime)
+debugfs on /sys/kernel/debug type debugfs (rw,relatime)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
+configfs on /sys/kernel/config type configfs (rw,relatime)
+/var/lib/snapd/snaps/gnome-characters_399.snap on /snap/gnome-characters/399 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_135.snap on /snap/gnome-system-monitor/135 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_704.snap on /snap/gnome-calculator/704 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_116.snap on /snap/gnome-3-28-1804/116 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1474.snap on /snap/gtk-common-themes/1474 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1705.snap on /snap/core18/1705 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_127.snap on /snap/gnome-system-monitor/127 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_495.snap on /snap/gnome-characters/495 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_93.snap on /snap/gnome-logs/93 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1440.snap on /snap/gtk-common-themes/1440 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1668.snap on /snap/core18/1668 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_81.snap on /snap/gnome-logs/81 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_544.snap on /snap/gnome-calculator/544 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8689.snap on /snap/core/8689 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8935.snap on /snap/core/8935 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/dev/sda2 on /boot/efi type vfat (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
+tmpfs on /run/user/121 type tmpfs (rw,nosuid,nodev,relatime,size=394544k,mode=700,uid=121,gid=125)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=394544k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/0904[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/0904[00m$ exit
+exit
+
+Script done on 2020-04-09 17:07:03+0530
