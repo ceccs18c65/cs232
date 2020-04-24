@@ -1,0 +1,280 @@
+Script started on 2020-04-24 17:52:09+0530
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ lssudo modprobe rtl8723dee[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C-r rtl8723de[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Crtl8723de[K[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Klssudo modprobe rtl8723dee[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C-r rtl8723de[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[5Pake install
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capt-get install liinux-headers-generic build-essential git[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[5Pmake install
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capt-get install liinux-headers-generic build-essential git[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [8Pcd rtlwifi_new
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ && git  checkout origin/extended -b extended[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ git clone https://githu[6Pb.com/lwfinger/rtlwifi_new.git[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [7Pscript work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo gedit /etc/vsftpd..config[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[Capt-get install vs[2Pftpd
+[sudo] password for shijin: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version (3.0.3-9build1).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.15.0-91 linux-headers-4.15.0-91-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ sudo apt-get install vssftpd[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo modprobe rtl8723dee[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C-r rtl8723de[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[5Pake install
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capt-get install liinux-headers-generic build-essential git[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [8Pcd rtlwifi_new
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ && git  checkout origin/extended -b extended[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ git clone https://githu[6Pb.com/lwfinger/rtlwifi_new.git[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [7Pscript work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo gedit /etc/vsftpd..config
+
+** (gedit:3447): [1;33mWARNING[0m **: [34m17:52:48.207[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:3447): [1;33mWARNING[0m **: [34m17:52:48.207[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:3447): [1;33mWARNING[0m **: [34m17:52:51.606[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ sudo gedit /etc/vsftpd..config[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[Capt-get install vs[2Pftpd[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo modprobe rtl8723dee[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C-r rtl8723de[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[5Pake install
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capt-get install liinux-headers-generic build-essential git[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [8Pcd rtlwifi_new
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ && git  checkout origin/extended -b extended[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ git clone https://githu[6Pb.com/lwfinger/rtlwifi_new.git[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [7Pscript work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo gedit /etc/vsftpd..config[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[Capt-get install vs[2Pftpd[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[7Pcript work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ceccs18c65/cs232/17004[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt-get install vssftpd[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [Cftp cs18c65@14.139.189.217[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ dig +short myip.opends.com@resolver1.opends.com[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [7Pscript work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ceccs18c65/cs232/09004[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./config2.shchmod +x config2.sh[7P./config2.shgedit config2.sh[4P./config1.shchmod +x config1.sh[7P./config1.shgedit config1.shsftp cs18c65@14.139.1899.217[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ceccs18c65/cs232/07004[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ sftp cs18c65@14.139.189.217[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ dig +short myip.opends.com@resolver1.opends.com[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [7Pscript work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdig +short myip.opendnss.com@resolver1.opendns.com[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [14Pifconfig
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdgddig +short myip.opendnss.com@resolver1.opendns.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kftp ;p[K[Klocalhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:shijin): shijin
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ex[K[Ksudo apt-get insta;;[K[Kll apache2
+?Invalid command
+ftp> exit
+221 Goodbye.
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ftp localhostsudo gedit /etc/vsftpd..config[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[Capt-get install vs[2Pftpd[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo modprobe rtl8723dee[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C-r rtl8723de[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[C[C[5Pake install
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capt-get install liinux-headers-generic build-essential git[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [8Pcd rtlwifi_new
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ && git  checkout origin/extended -b extended[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ git clone https://githu[6Pb.com/lwfinger/rtlwifi_new.git[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [7Pscript work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo gedit /etc/vsftpd..config[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[Capt-get install vs[2Pftpd[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[7Pcript work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ceccs18c65/cs232/17004[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt-get install vssftpd[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [Cftp cs18c65@14.139.189.217[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [Cudo apt-get install vsftpd[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kl a pache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.15.0-91 linux-headers-4.15.0-91-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ si[Kudo gedit /var/www/ht ml/index.html
+
+** (gedit:3582): [1;33mWARNING[0m **: [34m18:15:01.587[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ sudo gedit /var/www/htmml/index.html
+
+** (gedit:5127): [1;33mWARNING[0m **: [34m18:16:36.971[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5127): [1;33mWARNING[0m **: [34m18:16:36.971[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5127): [1;33mWARNING[0m **: [34m18:16:50.531[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5127): [1;33mWARNING[0m **: [34m18:16:50.532[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5127): [1;33mWARNING[0m **: [34m18:16:51.826[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ifconfig
+eno1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 48:ba:4e:20:a7:f1  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1968  bytes 204041 (204.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1968  bytes 204041 (204.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.43.16  netmask 255.255.255.0  broadcast 192.168.43.255
+        inet6 2409:4073:211:11de:19e5:80d4:a557:5fc5  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:4073:211:11de:bae3:1f6f:ed4f:6d67  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::b24f:fc03:1428:1ab4  prefixlen 64  scopeid 0x20<link>
+        ether d4:6a:6a:04:bc:b7  txqueuelen 1000  (Ethernet)
+        RX packets 62869  bytes 76685150 (76.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 44304  bytes 5887064 (5.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ftp 127/[K.0.01
+Connected to 127.0.01.
+220 (vsFTPd 3.0.3)
+Name (127.0.01:shijin): Shijin
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> ls
+530 Please login with USER and PASS.
+ftp: bind: Address already in use
+ftp> exit
+221 Goodbye.
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ftp 127.0.01
+Connected to 127.0.01.
+220 (vsFTPd 3.0.3)
+Name (127.0.01:shijin): SHIJIN
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> exit
+221 Goodbye.
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ftp 127.0.01
+Connected to 127.0.01.
+220 (vsFTPd 3.0.3)
+Name (127.0.01:shijin): s shijin
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> exit
+221 Goodbye.
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ftp 127.0.01
+Connected to 127.0.01.
+220 (vsFTPd 3.0.3)
+Name (127.0.01:shijin): shijin
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    5 1000     1000         4096 Apr 09 16:28 Desktop
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Documents
+drwxr-xr-x    2 1000     1000         4096 Apr 05 20:24 Downloads
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Music
+drwxr-xr-x    2 1000     1000         4096 Apr 09 17:19 Pictures
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Public
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Templates
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Videos
+-rw-r--r--    1 1000     1000         1432 Apr 07 17:17 apache.crt
+-rw-------    1 1000     1000         1704 Apr 07 17:15 apache.key
+drwxr-xr-x    3 1000     1000         4096 Mar 26 18:08 ceccs18c65
+drwxr-xr-x   21 1000     1000         4096 Apr 17 19:41 rtlwifi_new
+226 Directory send OK.
+ftp> ls[K[Kexit
+421 Timeout.
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ftp 127.0.01[4Pifconfigsudo gedit /var/www/htmml/index.html
+
+** (gedit:5326): [1;33mWARNING[0m **: [34m18:31:58.467[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5326): [1;33mWARNING[0m **: [34m18:31:58.467[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5326): [1;33mWARNING[0m **: [34m18:31:59.424[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5326): [1;33mWARNING[0m **: [34m18:31:59.425[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5326): [1;33mWARNING[0m **: [34m18:32:00.713[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ sudo gedit /var/www/htmml/index.html
+
+** (gedit:5409): [1;33mWARNING[0m **: [34m18:34:16.606[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5409): [1;33mWARNING[0m **: [34m18:34:16.606[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5409): [1;33mWARNING[0m **: [34m18:34:17.163[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5409): [1;33mWARNING[0m **: [34m18:34:17.164[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5409): [1;33mWARNING[0m **: [34m18:34:18.314[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ sudo gedit /var/www/htmml/index.html
+
+** (gedit:5485): [1;33mWARNING[0m **: [34m18:34:51.137[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5485): [1;33mWARNING[0m **: [34m18:34:51.137[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5485): [1;33mWARNING[0m **: [34m18:34:52.908[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ sudo gedit /var/www/htmml/index.html
+
+** (gedit:5650): [1;33mWARNING[0m **: [34m18:38:23.182[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5650): [1;33mWARNING[0m **: [34m18:38:23.182[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): [1;33mWARNING[0m **: [34m18:38:25.048[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ sudo gedit /var/www/htmml/index.html
+
+** (gedit:5820): [1;33mWARNING[0m **: [34m18:39:08.897[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5820): [1;33mWARNING[0m **: [34m18:39:08.897[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5820): [1;33mWARNING[0m **: [34m18:39:08.901[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ sudo gedit /var/www/htmml/index.html[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [10Pftp 127.0.01
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pifconfigsudo gedit /var/www/htmml/index.html[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [C[C[C[C[Capt-get install ap[7Pache2[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [9Pftp localhost
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /etc/vsftpd..config[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [9Pftp localhost
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:shijin): shijin
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ifconfig
+?Invalid command
+ftp> exit[K[K[K[Kls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    5 1000     1000         4096 Apr 09 16:28 Desktop
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Documents
+drwxr-xr-x    2 1000     1000         4096 Apr 05 20:24 Downloads
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Music
+drwxr-xr-x    2 1000     1000         4096 Apr 09 17:19 Pictures
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Public
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Templates
+drwxr-xr-x    2 1000     1000         4096 Mar 25 22:15 Videos
+-rw-r--r--    1 1000     1000         1432 Apr 07 17:17 apache.crt
+-rw-------    1 1000     1000         1704 Apr 07 17:15 apache.key
+drwxr-xr-x    3 1000     1000         4096 Mar 26 18:08 ceccs18c65
+drwxr-xr-x   21 1000     1000         4096 Apr 17 19:41 rtlwifi_new
+226 Directory send OK.
+ftp> lsifconfig[K[K[K[K[K[K[K[Kexit
+221 Goodbye.
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ftp localhostsudo gedit /var/www/htmml/index.html[A]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ [10Pftp 127.0.01
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pifconfig
+eno1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 48:ba:4e:20:a7:f1  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 5074  bytes 547095 (547.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 5074  bytes 547095 (547.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.43.16  netmask 255.255.255.0  broadcast 192.168.43.255
+        inet6 2409:4073:211:11de:19e5:80d4:a557:5fc5  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:4073:211:11de:bae3:1f6f:ed4f:6d67  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::b24f:fc03:1428:1ab4  prefixlen 64  scopeid 0x20<link>
+        ether d4:6a:6a:04:bc:b7  txqueuelen 1000  (Ethernet)
+        RX packets 111688  bytes 128437722 (128.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 91560  bytes 12301455 (12.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ ifconfigftp localhostsudo gedit /var/www/htmml/index.html[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^C
+]0;shijin@shijin-HP-Laptop-15-bs0xx: ~/ceccs18c65/cs232/2404[01;32mshijin@shijin-HP-Laptop-15-bs0xx[00m:[01;34m~/ceccs18c65/cs232/2404[00m$ exit
+exit
+
+Script done on 2020-04-24 19:09:03+0530

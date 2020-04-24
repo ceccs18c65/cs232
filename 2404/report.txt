@@ -1,0 +1,54 @@
+CEC CS 18 C65   24-04-2020
+SHIJIN REJI ABRAHAM
+
+piblic ip: 104.200.22.130
+           104.200.23.95
+
+
+--------------------------------
+#1: Aim/task
+
+ t7:  Setting up ftp and http server
+
+---------------------------------
+Command/Shell script/Program name
+
+->To install ftp server
+
+      sudo apt-get install vsftpd
+
+->To edit ftp server configuration
+
+      sudo gedit /etc/vsftpd.conf
+
+->To connect ftp on local server
+
+      ftp localhost
+
+->To install apache2
+
+      sudo apt-get install apache2
+
+->To edit appache2
+
+      sudo gedit /var/www/html/index.html
+
+
+---------------------------------
+Output
+
+>>ftp server is available at 
+
+     192.168.43.16
+
+>>Apache server 
+
+     screenshot.png  is attached
+
+
+--------------------------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
